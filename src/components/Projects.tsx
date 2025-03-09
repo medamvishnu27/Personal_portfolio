@@ -69,7 +69,7 @@ const Projects = () => {
         id: "js_5",
         title: 'Stopwatch',
         description: 'Time yourself with precision using this sleek and easy-to-use stopwatch. Track elapsed time, record lap times, and reset with a single click. Ideal for sports, work, or any activity requiring accurate timekeeping.',
-        image: '/public/caucasian-businessman-holding-old-fashioned-metal-stopwatch-generated-by-ai.jpg',
+        image: '/caucasian-businessman-holding-old-fashioned-metal-stopwatch-generated-by-ai.jpg',
         sourceCodeUrl: 'https://github.com/medamvishnu27/Stop_watch.git',
         websiteUrl: 'https://drive.google.com/drive/folders/1VXy16TYutd20ZEgkecL39rHzZkUOD4UT?usp=sharing',
         technologies: ['JavaScript', 'CSS', 'HTML']
