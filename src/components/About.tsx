@@ -58,7 +58,7 @@ const About = () => {
 
         <motion.div variants={itemVariants}>
           <img 
-            src="/public/image.png"
+            src="/image.png"
             alt="About"
             className="rounded-lg shadow-xl w-full h-96"
             loading="lazy"
