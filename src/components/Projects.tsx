@@ -133,22 +133,22 @@ const Projects = () => {
       {
         id: "react_7",
         title: "Socialhire",
-        image: 'public/Socialhire.png',
+        image: '/Socialhire.png', // ✅ Corrected
         description: "Get weather updates with a responsive interface.",
         technologies: ["React.js", "Redux", "Tailwind CSS"],
         websiteUrl: "https://drive.google.com/drive/folders/1AbUpjSbpjaQdE88B0jeEJ0tJPM36o3W?usp=sharing",
-        sourceCodeUrl: "https://github.com/medamvishnu27/Weather_app",
-      }
+        sourceCodeUrl: "https://github.com/medamvishnu27/Weather_app"
+      },
     ],
     typescript: [
       {
         id: "typescript_1",
         title: "Personal portfolio",
         description: "A modern and interactive developer portfolio built with TypeScript.",
-        image: 'public/portfolio.png',
+        image: '/portfolio.png', // ✅ Corrected
         technologies: ["TypeScript", "Framer Motion", "Tailwind CSS"],
         websiteUrl: "https://personalportfoliovishnu.vercel.app/",
-        sourceCodeUrl: "https://github.com/medamvishnu27/Personal_portfolio.git",
+        sourceCodeUrl: "https://github.com/medamvishnu27/Personal_portfolio.git"
       }
     ]
   };
