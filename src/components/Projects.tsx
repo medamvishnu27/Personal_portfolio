@@ -12,7 +12,7 @@ const Projects = () => {
       {
         id: "html_1",
         title: "Wedding Planner Website",
-        description: "A comprehenwebsiteUrl website that showcases all the services offered by wedding planners. Users can explore various packages, view testimonials, and get in touch with planners to make their special day memorable.",
+        description: "A comprehensive website showcasing all the services offered by wedding planners. Users can explore packages, view testimonials, and get in touch with planners.",
         image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80',
         technologies: ["HTML", "CSS"],
         websiteUrl: "https://drive.google.com/drive/folders/1qfNE885_nvv5_MEtKr1btQ8CWSJFC7lB?usp=sharing",
@@ -21,7 +21,7 @@ const Projects = () => {
       {
         id: "html_2",
         title: "Hungry Buds Restaurant Website",
-        description: "This website provides a complete overview of the Hungry Buds restaurant, including its menu, special offers, and reservation options.",
+        description: "An informative site for the Hungry Buds restaurant, including its menu, special offers, and reservation options.",
         image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80',
         technologies: ["HTML", "CSS"],
         websiteUrl: "https://drive.google.com/drive/folders/15BPDVA0VluyVdxsOQsc7PnAaI_RCQYgq?usp=sharing",
@@ -32,7 +32,7 @@ const Projects = () => {
       {
         id: "js_1",
         title: "Real-time Weather Update Website",
-        description: "This website provides accurate real-time weather updates for various locations using weather API integration.",
+        description: "Provides accurate real-time weather updates using a weather API.",
         image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80',
         technologies: ["JavaScript", "CSS", "HTML"],
         websiteUrl: "https://drive.google.com/drive/folders/1GrdgxPbf7Z1pKR2zZgpKETvyQ2MbIcTv?usp=sharing",
@@ -41,7 +41,7 @@ const Projects = () => {
       {
         id: "js_2",
         title: "Simple Calculator",
-        description: "A straightforward calculator that can perform basic arithmetic operations.",
+        description: "A basic calculator for arithmetic operations.",
         image: 'https://images.unsplash.com/photo-1587145820266-a5951ee6f620?auto=format&fit=crop&q=80',
         technologies: ["JavaScript", "CSS", "HTML"],
         websiteUrl: "https://example.com/calculator",
@@ -50,7 +50,7 @@ const Projects = () => {
       {
         id: "js_3",
         title: 'BMI Calculator',
-        description: 'Easily calculate your Body Mass Index (BMI) with this simple and accurate tool. Enter your height and weight, and instantly recwebsiteUrl your BMI result along with a healthy weight range interpretation.',
+        description: 'Calculate Body Mass Index (BMI) with height and weight input.',
         image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/BMI-_calculator.git',
         websiteUrl: 'https://drive.google.com/drive/folders/18nrWi2hn8ODj7ZgwmJeWiQZHyOELEXJ4?usp=sharing',
@@ -59,7 +59,7 @@ const Projects = () => {
       {
         id: "js_4",
         title: 'Random Quote Generator',
-        description: 'Find inspiration and motivation with a daily dose of wisdom. This generator dewebsiteUrlrs a new and insightful quote each time you refresh, offering words to websiteUrl by and spark creativity.',
+        description: 'This generator displays a new quote every time you refresh.',
         image: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/Quote-generator.git',
         websiteUrl: 'https://drive.google.com/drive/folders/1btX3ZaQdgvOORhRsZdqYFlnmi6j_HTZT?usp=sharing',
@@ -68,8 +68,8 @@ const Projects = () => {
       {
         id: "js_5",
         title: 'Stopwatch',
-        description: 'Time yourself with precision using this sleek and easy-to-use stopwatch. Track elapsed time, record lap times, and reset with a single click. Ideal for sports, work, or any activity requiring accurate timekeeping.',
-        image: '/caucasian-businessman-holding-old-fashioned-metal-stopwatch-generated-by-ai.jpg',
+        description: 'Track time with a clean stopwatch interface including lap and reset.',
+        image: 'https://images.unsplash.com/photo-1593950323882-bd07c1a9d2d8?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/Stop_watch.git',
         websiteUrl: 'https://drive.google.com/drive/folders/1VXy16TYutd20ZEgkecL39rHzZkUOD4UT?usp=sharing',
         technologies: ['JavaScript', 'CSS', 'HTML']
@@ -79,7 +79,7 @@ const Projects = () => {
       {
         id: "react_1",
         title: "CA Profiles",
-        description: "A one-stop solution for all Chartered Accountants' data with user-friendly interface.",
+        description: "A solution to organize and access Chartered Accountants' data easily.",
         image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80',
         technologies: ["React.js", "JavaScript", "Tailwind CSS"],
         websiteUrl: "https://drive.google.com/drive/folders/1VXy16TYutd20ZEgkecL39rHzZkUOD4UT?usp=sharing",
@@ -88,7 +88,7 @@ const Projects = () => {
       {
         id: "react_2",
         title: "Expense Tracker",
-        description: "An elegant tracker that helps users monitor their expenses according to different categories.",
+        description: "Track daily expenses with easy-to-use UI.",
         image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80',
         technologies: ["React.js", "JavaScript", "Bootstrap"],
         websiteUrl: "https://drive.google.com/drive/folders/1AbUpjSbpjaQdE88B0jeEJ0tJPM36o3W3?usp=sharing",
@@ -97,7 +97,7 @@ const Projects = () => {
       {
         id: "react_3",
         title: 'E-commerce Website',
-        description: 'A foundation for your online store. This e-commerce website provides essential features to start selling products online, including product catalogs, shopping carts, and secure checkout.',
+        description: 'E-commerce store with product catalog, cart, and checkout.',
         image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/Ecommarce_project.git',
         websiteUrl: 'https://drive.google.com/drive/folders/1LUo-C7COsjD5bZVt-5RXEavQqzCoH0MP?usp=sharing',
@@ -106,7 +106,7 @@ const Projects = () => {
       {
         id: "react_4",
         title: 'Music App',
-        description: 'Discover, explore, and enjoy your favorite music. This app allows you to create playlists, stream music, and discover new artists with an intuitive and engaging interface.',
+        description: 'Music streaming app with playlist creation and artist discovery.',
         image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/Music-app.git',
         websiteUrl: 'https://drive.google.com/drive/folders/1_3dfWZFP_SdICaCYZo-O2kwvounkwn1l?usp=sharing',
@@ -115,26 +115,47 @@ const Projects = () => {
       {
         id: "react_5",
         title: 'Quiz App',
-        description: 'Test your web development skills with this comprehensive quiz app. Covering fundamental concepts of HTML, CSS, Bootstrap, and React, the app features multiple-choice questions, detailed explanations, and score tracking. Challenge yourself, identify areas for improvement, and solidify your understanding of these core web technologies.',
+        description: 'Quiz platform on HTML, CSS, Bootstrap, and React with scoring.',
         image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
         sourceCodeUrl: 'https://github.com/medamvishnu27/QuizApp_React.git',
         websiteUrl: 'https://drive.google.com/drive/folders/19xo9DVmGpRMFW1DnPEJ6K4twQabOute0?usp=sharing',
         technologies: ['React.js', 'JavaScript', 'Bootstrap']
-      },{
+      },
+      {
         id: "react_6",
         title: "Task Management Application",
-        image:'/public/4871715.jpg',
-        description: "Stay organized and productive with this powerful task management application. Create to-do lists, set reminders, track progress, and collaborate with others to achieve your goals.",
+        image: '/4871715.jpg',
+        description: "Create to-dos, set reminders, and track goals.",
         technologies: ["React.js", "JavaScript", "Bootstrap"],
         websiteUrl: "https://drive.google.com/drive/folders/1St0GBFzjNi8g_eD6e8s6f2ZQKGRkcKkT?usp=sharing",
         sourceCodeUrl: "https://github.com/medamvishnu27/Task_mangment_application.git",
       },
+      {
+        id: "react_7",
+        title: "Socialhire",
+        image: 'assets/Socialhire.png',
+        description: "Get weather updates with a responsive interface.",
+        technologies: ["React.js", "Redux", "Tailwind CSS"],
+        websiteUrl: "https://drive.google.com/drive/folders/1AbUpjSbpjaQdE88B0jeEJ0tJPM36o3W?usp=sharing",
+        sourceCodeUrl: "https://github.com/medamvishnu27/Weather_app",
+      }
     ],
+    typescript: [
+      {
+        id: "typescript_1",
+        title: "Personal portfolio",
+        description: "A modern and interactive developer portfolio built with TypeScript.",
+        image: 'assets/portfolio.png',
+        technologies: ["TypeScript", "Framer Motion", "Tailwind CSS"],
+        websiteUrl: "https://personalportfoliovishnu.vercel.app/",
+        sourceCodeUrl: "https://github.com/medamvishnu27/Personal_portfolio.git",
+      }
+    ]
   };
 
   useEffect(() => {
     const projects = selectedCategory === 'All'
-      ? [...projectData.html, ...projectData.javascript, ...projectData.react]
+      ? [...projectData.html, ...projectData.javascript, ...projectData.react, ...projectData.typescript]
       : projectData[selectedCategory.toLowerCase()] || [];
     setFilteredProjects(projects);
   }, [selectedCategory]);
@@ -168,12 +189,12 @@ const Projects = () => {
       </motion.h2>
 
       <div className="flex justify-center gap-4 mb-12 flex-wrap">
-        {['All', 'Html', 'JavaScript', 'React'].map((category) => (
+        {['All', 'Html', 'JavaScript', 'React', 'TypeScript'].map((category) => (
           <motion.button
             key={category}
             className={`px-6 py-2 rounded-full ${selectedCategory === category
-                ? 'bg-blue-600 text-white'
-                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+              ? 'bg-blue-600 text-white'
+              : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
               }`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -204,13 +225,13 @@ const Projects = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <div className="p-6">
-                <img src={project.image} alt="" />
-                <h3 className="text-xl text-gray-800 p-1 font-semibold mb-4">{project.title}</h3>
+                <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-md mb-4" />
+                <h3 className="text-xl text-gray-800 font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech) => (
+                  {project.technologies.map((tech, index) => (
                     <span
-                      key={tech}
+                      key={index}
                       className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700"
                     >
                       {tech}
@@ -236,7 +257,6 @@ const Projects = () => {
                     <FaCode className="mr-2" />
                     Source Code
                   </a>
-
                 </div>
               </div>
             </motion.div>

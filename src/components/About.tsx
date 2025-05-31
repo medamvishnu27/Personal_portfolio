@@ -1,12 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaJava, FaDatabase, FaReact, FaBootstrap, FaGithub, FaCodeBranch, FaLeaf } from 'react-icons/fa';
+import {
+  FaHtml5, FaCss3Alt, FaJsSquare, FaJava,
+  FaDatabase, FaReact, FaBootstrap, FaGithub,
+  FaCodeBranch, FaLeaf, FaNodeJs, FaAngular
+} from 'react-icons/fa';
 import { TbBrandRedux } from "react-icons/tb";
+import {
+  SiTypescript, SiNextdotjs, SiMui, SiFigma, SiMongodb
+} from 'react-icons/si';
 
 const About = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { 
+    visible: {
       opacity: 1,
       transition: { duration: 0.6, staggerChildren: 0.2 }
     }
@@ -14,15 +21,37 @@ const About = () => {
 
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
-    visible: { 
-      y: 0, 
+    visible: {
+      y: 0,
       opacity: 1,
       transition: { duration: 0.6 }
     }
   };
 
+  const technicalSkills = [
+    { icon: FaHtml5, name: 'HTML', color: '#E34F26' },
+    { icon: FaCss3Alt, name: 'CSS', color: '#1572B6' },
+    { icon: FaJsSquare, name: 'JavaScript', color: '#F7DF1E' },
+    { icon: FaJava, name: 'Java', color: '#007396' },
+    { icon: FaDatabase, name: 'MySQL', color: '#4479A1' },
+    { icon: SiMongodb, name: 'MongoDB', color: '#47A248' },
+    { icon: FaReact, name: 'React.js', color: '#61DAFB' },
+    { icon: TbBrandRedux, name: 'Redux', color: '#764ABC' },
+    { icon: FaBootstrap, name: 'Bootstrap', color: '#563D7C' },
+    { icon: FaGithub, name: 'GitHub', color: '#181717' },
+    { icon: FaCodeBranch, name: 'GitLens', color: '#E44D27' },
+    { icon: FaLeaf, name: 'Spring Boot', color: '#6DB33F' },
+    { icon: FaNodeJs, name: 'Node.js', color: '#339933' },
+    { icon: SiTypescript, name: 'TypeScript', color: '#3178C6' },
+    { icon: SiNextdotjs, name: 'Next.js', color: '#000000' },
+    { icon: FaAngular, name: 'Angular', color: '#DD0031' },
+    { icon: SiMui, name: 'Material UI', color: '#007FFF' },
+    { icon: SiFigma, name: 'Figma', color: '#F24E1E' },
+    { icon: null, name: 'UI/UX', color: '#6C63FF' }
+  ];
+
   return (
-    <motion.div 
+    <motion.div
       className="container mx-auto px-4 py-16"
       variants={containerVariants}
       initial="hidden"
@@ -39,17 +68,11 @@ const About = () => {
             I also enjoy sharing content about the knowledge and skills I've gained over the years in web development and programming. My goal is to support the developer community by providing valuable insights and resources.
           </p>
           <div className="grid grid-cols-2 gap-8">
-            <motion.div 
-              className="text-center"
-              variants={itemVariants}
-            >
+            <motion.div className="text-center" variants={itemVariants}>
               <h3 className="text-3xl font-bold text-blue-500">13</h3>
               <p className="text-gray-500">Completed projects</p>
             </motion.div>
-            <motion.div 
-              className="text-center"
-              variants={itemVariants}
-            >
+            <motion.div className="text-center" variants={itemVariants}>
               <h3 className="text-3xl font-bold text-blue-500">30</h3>
               <p className="text-gray-500">Positive reviews</p>
             </motion.div>
@@ -57,7 +80,7 @@ const About = () => {
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <img 
+          <img
             src="/image.png"
             alt="About"
             className="rounded-lg shadow-xl w-full h-96"
@@ -66,42 +89,24 @@ const About = () => {
         </motion.div>
       </div>
 
-      <motion.div 
-        className="mt-16"
-        variants={containerVariants}
-      >
+      <motion.div className="mt-16" variants={containerVariants}>
         <h2 className="text-3xl font-bold text-center mb-8"><span className='text-blue-600'>Technical</span> Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {[
-            { icon: FaHtml5, name: 'HTML', color: '#E34F26' },
-            { icon: FaCss3Alt, name: 'CSS', color: '#1572B6' },
-            { icon: FaJsSquare, name: 'JavaScript', color: '#F7DF1E' },
-            { icon: FaJava, name: 'Java', color: '#007396' },
-            { icon: FaDatabase, name: 'MySQL', color: '#4479A1' },
-            { icon: FaReact, name: 'React.js', color: '#61DAFB' },
-            { icon: TbBrandRedux, name: 'Redux', color: '#764ABC' },
-            { icon: FaBootstrap, name: 'Bootstrap', color: '#563D7C' },
-            { icon: FaGithub, name: 'GitHub', color: '#181717' },
-            { icon: FaCodeBranch, name: 'GitLens', color: '#E44D27' },
-            { icon: FaLeaf, name: 'Spring Boot', color: '#6DB33F' }
-          ].map((skill, index) => (
+          {technicalSkills.map((skill) => (
             <motion.div
               key={skill.name}
               className="flex items-center gap-2 p-4 bg-white rounded-lg shadow-md"
               variants={itemVariants}
               style={{ color: skill.color }}
             >
-              <skill.icon className="text-2xl" />
+              {skill.icon ? <skill.icon className="text-2xl" /> : <div className="text-2xl font-bold">🎨</div>}
               <span className="text-gray-800">{skill.name}</span>
             </motion.div>
           ))}
         </div>
       </motion.div>
 
-      <motion.div 
-        className="mt-16"
-        variants={containerVariants}
-      >
+      <motion.div className="mt-16" variants={containerVariants}>
         <h2 className="text-3xl font-bold text-center mb-8">Language <span className='text-blue-500'>Skills</span></h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
@@ -114,7 +119,7 @@ const About = () => {
               className="bg-white text-gray-700 p-6 rounded-lg shadow-md text-center"
               variants={itemVariants}
             >
-              <motion.div 
+              <motion.div
                 className="text-4xl font-bold text-blue-500 mb-2"
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
